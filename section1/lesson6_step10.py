@@ -14,11 +14,11 @@ try:
     input3 = browser.find_element_by_css_selector(".first_block .third")
     input3.send_keys("ipetrov@test.test")
     
-    # Отправляем заполненную форму
+    # отправляем заполненную форму
     button = browser.find_element_by_css_selector("button.btn")
     button.click()
 
-    # Проверяем, что смогли зарегистрироваться
+    # проверяем, что смогли зарегистрироваться
     # ждем загрузки страницы
     time.sleep(1)
 
