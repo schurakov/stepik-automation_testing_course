@@ -2,3 +2,4 @@ selenium_env/
 .vscode/
 .idea/
 test_env
+*.log
